@@ -11,6 +11,7 @@ app.get("/", (req,res)=>{
 
 
 app.listen(port, ()=>{
+    console.log(process.env.PORT)
     console.log("app is listening on the port", port);
 
 })
